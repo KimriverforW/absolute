@@ -10,7 +10,12 @@
 		.blue{background:#00f;}
 		.red{background:#f00;}
 		.flu{width:100px; height:100px; background:black; position:absolute; color:white;}
-		.light{width:500px; z-index:999; position: absolute; animation: ro infinite 10s linear}
+		.light{width:500px; z-index:999; position: absolute; animation: ro 10s infinite linear;}
+		/*이름 시간 횟수 속도*/
+		@keyframes ro{
+			from{}
+			to{transform: rotate3D(1,1,1,360deg);}
+		}
 	</style>
 </head>
 <body>
